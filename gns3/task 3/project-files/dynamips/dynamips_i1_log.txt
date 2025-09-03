@@ -1,0 +1,28 @@
+Aug 29 20:28:09.454 HYPERVISOR: Release 0.2.14-nojit/Linux (tag 2014092320)
+Aug 29 20:28:09.454 HYPERVISOR: Started on TCP port = 36753.
+Aug 29 20:28:09.456 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 29 20:28:09.456 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips 
+Aug 29 20:28:09.456 GENERAL: working_dir=/home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips
+Aug 29 20:28:09.456 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips/85bd53d7-ad71-49a5-8da6-0db678441df0 
+Aug 29 20:28:09.456 GENERAL: working_dir=/home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips/85bd53d7-ad71-49a5-8da6-0db678441df0
+Aug 29 20:28:09.457 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Aug 29 20:28:09.459 VM: VM R1 created.
+Aug 29 20:28:09.459 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5003 
+Aug 29 20:28:09.460 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Aug 29 20:28:09.460 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Aug 29 20:28:09.461 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Aug 29 20:28:09.461 HYPERVISOR: exec_cmd: vm set_ios R1 /home/aleks/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Aug 29 20:28:09.462 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 29 20:28:09.462 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60aa5f14 
+Aug 29 20:28:09.462 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Aug 29 20:28:09.462 HYPERVISOR: exec_cmd: c3745 set_mac_addr R1 c401.6159.0000 
+Aug 29 20:28:09.496 HYPERVISOR: exec_cmd: nio create_udp udp-765fbb99-e97a-4e80-a519-b1dcd88904d3 10002 127.0.0.1 10003 
+Aug 29 20:28:09.705 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-765fbb99-e97a-4e80-a519-b1dcd88904d3 
+Aug 29 20:28:09.705 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 29 20:28:36.624 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Aug 29 20:28:36.625 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips/c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Aug 29 20:28:36.625 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 29 20:28:36.627 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Aug 29 20:28:36.627 HYPERVISOR: exec_cmd: vm start R1 
+Aug 29 20:46:38.542 HYPERVISOR: exec_cmd: nio bind_filter udp-765fbb99-e97a-4e80-a519-b1dcd88904d3 2 capture 
+Aug 29 20:46:38.543 HYPERVISOR: exec_cmd: nio setup_filter udp-765fbb99-e97a-4e80-a519-b1dcd88904d3 2 en10mb /home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/captures/R1_FastEthernet00_to_R2_FastEthernet00.pcap 

@@ -1,0 +1,19 @@
+Aug 28 15:46:31.774 HYPERVISOR: Release 0.2.14-nojit/Linux (tag 2014092320)
+Aug 28 15:46:31.774 HYPERVISOR: Started on TCP port = 45113.
+Aug 28 15:46:31.779 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 28 15:46:31.779 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aleks/GNS3/projects/8245653c-7aa7-4008-8fcb-ab6745026a2b/project-files/dynamips 
+Aug 28 15:46:31.780 GENERAL: working_dir=/home/aleks/GNS3/projects/8245653c-7aa7-4008-8fcb-ab6745026a2b/project-files/dynamips
+Aug 28 15:46:31.780 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aleks/GNS3/projects/8245653c-7aa7-4008-8fcb-ab6745026a2b/project-files/dynamips/f3ac4af4-0548-4e96-9066-243eb335208e 
+Aug 28 15:46:31.780 GENERAL: working_dir=/home/aleks/GNS3/projects/8245653c-7aa7-4008-8fcb-ab6745026a2b/project-files/dynamips/f3ac4af4-0548-4e96-9066-243eb335208e
+Aug 28 15:46:31.780 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Aug 28 15:46:31.781 VM: VM R1 created.
+Aug 28 15:46:31.782 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5002 
+Aug 28 15:46:31.783 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Aug 28 15:46:31.783 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Aug 28 15:46:31.784 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Aug 28 15:46:31.786 HYPERVISOR: exec_cmd: vm set_ios R1 /home/aleks/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Aug 28 15:46:31.787 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 28 15:46:31.787 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60aa5f14 
+Aug 28 15:46:31.788 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Aug 28 15:46:31.788 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5002 
+Aug 28 15:46:31.789 HYPERVISOR: exec_cmd: c3745 set_mac_addr R1 c401.6159.0000 

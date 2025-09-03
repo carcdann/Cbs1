@@ -1,0 +1,39 @@
+Aug 28 15:38:03.783 HYPERVISOR: Release 0.2.14-nojit/Linux (tag 2014092320)
+Aug 28 15:38:03.783 HYPERVISOR: Started on TCP port = 60833.
+Aug 28 15:38:03.792 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 28 15:38:03.793 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aleks/GNS3/projects/a28a2781-67f8-44a4-ac71-43b296decae8/project-files/dynamips 
+Aug 28 15:38:03.793 GENERAL: working_dir=/home/aleks/GNS3/projects/a28a2781-67f8-44a4-ac71-43b296decae8/project-files/dynamips
+Aug 28 15:38:03.794 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aleks/GNS3/projects/a28a2781-67f8-44a4-ac71-43b296decae8/project-files/dynamips/fda209d1-5da5-46e8-8496-5b0f1867134f 
+Aug 28 15:38:03.794 GENERAL: working_dir=/home/aleks/GNS3/projects/a28a2781-67f8-44a4-ac71-43b296decae8/project-files/dynamips/fda209d1-5da5-46e8-8496-5b0f1867134f
+Aug 28 15:38:03.794 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Aug 28 15:38:03.795 VM: VM R1 created.
+Aug 28 15:38:03.795 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5001 
+Aug 28 15:38:03.795 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Aug 28 15:38:03.796 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Aug 28 15:38:03.796 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Aug 28 15:38:03.796 HYPERVISOR: exec_cmd: vm set_ios R1 /home/aleks/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Aug 28 15:38:03.797 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 28 15:38:03.797 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60aa5f14 
+Aug 28 15:38:03.798 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Aug 28 15:38:03.798 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5001 
+Aug 28 15:38:03.798 HYPERVISOR: exec_cmd: c3745 set_mac_addr R1 c401.6159.0000 
+Aug 28 15:41:27.745 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Aug 28 15:41:27.745 VM: VM Ghost created.
+Aug 28 15:41:27.746 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/aleks/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Aug 28 15:41:27.747 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 28 15:41:27.747 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/aleks/GNS3/projects/a28a2781-67f8-44a4-ac71-43b296decae8/project-files/dynamips/c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Aug 28 15:41:27.747 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Aug 28 15:41:27.748 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 28 15:41:27.748 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Aug 28 15:41:27.749 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 28 15:41:28.342 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 28 15:41:28.524 HYPERVISOR: exec_cmd: vm stop Ghost 
+Aug 28 15:41:28.753 VM: VM Ghost shutdown.
+Aug 28 15:41:28.754 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Aug 28 15:41:28.754 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 28 15:41:28.754 VM: VM Ghost destroyed.
+Aug 28 15:41:28.756 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Aug 28 15:41:28.756 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/aleks/GNS3/projects/a28a2781-67f8-44a4-ac71-43b296decae8/project-files/dynamips/c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Aug 28 15:41:28.756 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 28 15:41:28.758 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Aug 28 15:41:28.758 HYPERVISOR: exec_cmd: vm start R1 

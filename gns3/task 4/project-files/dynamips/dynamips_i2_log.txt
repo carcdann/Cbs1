@@ -1,0 +1,26 @@
+Aug 29 22:57:12.189 HYPERVISOR: Release 0.2.14-nojit/Linux (tag 2014092320)
+Aug 29 22:57:12.189 HYPERVISOR: Started on TCP port = 41309.
+Aug 29 22:57:12.193 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 29 22:57:12.193 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips 
+Aug 29 22:57:12.193 GENERAL: working_dir=/home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips
+Aug 29 22:57:12.193 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips/88766780-5388-4b3a-91c1-d1d8b15c32df 
+Aug 29 22:57:12.193 GENERAL: working_dir=/home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips/88766780-5388-4b3a-91c1-d1d8b15c32df
+Aug 29 22:57:12.193 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Aug 29 22:57:12.195 VM: VM R2 created.
+Aug 29 22:57:12.195 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5000 
+Aug 29 22:57:12.195 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Aug 29 22:57:12.195 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Aug 29 22:57:12.196 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Aug 29 22:57:12.196 HYPERVISOR: exec_cmd: vm set_ios R2 /home/aleks/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Aug 29 22:57:12.196 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 29 22:57:12.196 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60aa5f14 
+Aug 29 22:57:12.196 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Aug 29 22:57:12.196 HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.add2.0000 
+Aug 29 22:57:12.415 HYPERVISOR: exec_cmd: nio create_udp udp-2a301a61-5750-48b4-928e-d20bfd00900c 10004 127.0.0.1 10005 
+Aug 29 22:57:12.622 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-2a301a61-5750-48b4-928e-d20bfd00900c 
+Aug 29 22:57:12.622 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 29 22:57:40.268 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Aug 29 22:57:40.270 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/aleks/GNS3/projects/5e8e4bf5-7a51-4fca-9275-644c075efab4/project-files/dynamips/c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Aug 29 22:57:40.270 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 29 22:57:40.271 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Aug 29 22:57:40.272 HYPERVISOR: exec_cmd: vm start R2 
